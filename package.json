@@ -1,5 +1,5 @@
 {
-  "name": "component-build",
+  "name": "faiton-build",
   "description": "main logic for component's build command",
   "version": "1.2.0",
   "author": {
@@ -9,10 +9,10 @@
     "twitter": "https://twitter.com/jongleberry"
   },
   "license": "MIT",
-  "repository": "component/build.js",
+  "repository": "faiton/build",
   "dependencies": {
     "debug": "*",
-    "component-builder": "^1.1.2",
+    "faiton-builder": "^1.1.2",
     "builder-es6-module-to-cjs": "^1.1.0",
     "builder-autoprefixer": "^1.0.0"
   },
