@@ -17,7 +17,8 @@
     "builder-autoprefixer": "^1.0.0",
     "faiton-build-styles": "0.0.1",
     "yiwn-extend": "^1.0.1",
-    "faiton-build-files": "0.0.1"
+    "faiton-build-files": "0.0.1",
+    "faiton-build-scripts": "0.0.1"
   },
   "devDependencies": {
     "component-resolver": "^1.1.1",

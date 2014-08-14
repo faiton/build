@@ -4,7 +4,6 @@
     "component/emitter": "*"
   },
   "locals": [
-    "reset",
     "stuff"
   ],
   "scripts": ["index.js"]
