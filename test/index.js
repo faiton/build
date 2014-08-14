@@ -51,6 +51,8 @@ describe('example', function () {
     build.styles(function (err, css) {
       if (err) return done(err);
 
+      console.log(css);
+
       assert(~css.indexOf('-webkit-flex'));
       done();
     })
