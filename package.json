@@ -16,7 +16,7 @@
     "faiton-builder": "^1.1.2",
     "builder-es6-module-to-cjs": "^1.1.0",
     "builder-autoprefixer": "^1.0.0",
-    "faiton-build-styles": "^0.0.3",
+    "faiton-build-styles": "^0.0.4",
     "faiton-build-files": "^0.0.1",
     "faiton-build-scripts": "^0.0.1"
   },
