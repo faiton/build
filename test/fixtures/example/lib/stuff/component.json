@@ -1,3 +1,7 @@
 {
-  "scripts": ["index.js"]
+  "dependencies": {
+    "component/tip": "*"
+  },
+  "scripts": ["index.js"],
+  "templates": ["template.html"]
 }

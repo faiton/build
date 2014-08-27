@@ -28,19 +28,7 @@ describe('example', function () {
 
             var ctx = vm.createContext();
             vm.runInContext(js, ctx);
-            done();
-        });
-    });
 
-    it('should build scripts with UMD', function (done) {
-        build.set('umd', 'asdf');
-
-        build.scripts(function (err, js) {
-            if (err) return done(err);
-
-            var ctx = vm.createContext();
-            vm.runInContext(js, ctx);
-            vm.runInContext('if (!this.asdf) throw new Error();', ctx);
             done();
         });
     });
